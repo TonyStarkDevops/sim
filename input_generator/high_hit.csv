@@ -1,0 +1,5 @@
+,id,submission_time,partition,application_name,dataset_name,read_io,execution_time_ssd,execution_time_hdd,execution_time_cache
+1,2,1,central_hdd,Densenet,NotFamous,,4324,6358,4955
+7,8,1,cache_with_hdd,tensor_img_class2,NotFamous,,3314,4081,3518
+11,12,1,cache_with_hdd,yolov7-train,NotFamous,,1618,1739,1512
+31,32,1,central_hdd,tensor_img_class1,NotFamous,,1330,1994,1349

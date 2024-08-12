@@ -1,0 +1,4 @@
+,id,submission_time,partition,application_name,dataset_name,read_io,execution_time_ssd,execution_time_hdd,execution_time_cache
+0,1,1,central_hdd,Resdavenet,MIT_Places,,203,1018,935
+8,9,1,central_hdd,Resnet18,ImageNet,,220,439,467
+21,22,1,cache_with_hdd,Alexnet,ImageNet,,685,1199,1198

@@ -1,0 +1,11 @@
+[DEFAULT]
+scheduling_version = 2
+SSD_BW = 500e6
+HDD_BW = 800e6
+SSD_BLOCK_SIZE = 4e3
+HDD_BLOCK_SIZE = 4e3
+SSD_IOPS = 96e3
+HDD_IOPS = 25e2
+HDD_node_count = 70
+SSD_node_count = 10
+Cache_node_count = 20
