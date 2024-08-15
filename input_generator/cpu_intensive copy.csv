@@ -1,0 +1,6 @@
+,id,submission_time,partition,application_name,dataset_name,read_io,execution_time_ssd,execution_time_hdd,execution_time_cache
+2,3,1,cache_with_hdd,yolov7-inference,NotFamous,,683,519,895
+4,5,1,central_hdd,graphsage,NotFamous,,2160,2160,2160
+9,10,1,central_hdd,deepfm,NotFamous,,1344,1344,1344
+18,19,1,cache_with_hdd,gat,NotFamous,,3066,3066,3066
+57,58,1,cache_with_hdd,dcn,NotFamous,,1740,1740,1740

@@ -1,0 +1,27 @@
+"Application 
+Name",Framework,"Application
+Link","Log Path on
+Server",Dataset Name,Dataset Size,Cache Size,# epoch,Type,I/O rate,Compute_time,"Execution Time
+ on SSD real","SSD_cacl_time
+from cache (our calc)",Error Rate (our calc),"SSD_cacl_time
+from cache (REAL)",Error Rate (REAL),"Average Error 
+Rate on SSD","SSD calc
+ from HDD","Error Rate 
+(SSD from HDD)","Average Error 
+Rate on SSD from HDD","Execution Time
+on Cache real","Execution Time
+ on SAN_HDD real","HDD_cacl_time
+from cache (our calc)",Error Rate (our calc).1,"HDD_cacl_time
+from cache (REAL)",Error Rate (REAL).1,"Average Error
+Rate on HDD","HDD calc time
+from ssd","Error Rate 
+(HDD from SSD)","Average Error 
+Rate on HDD from SSD",SSD BW(MB/s),SAN_HDD BW(MB/s),Cache BW(MB/s),CacheBW_Calc,Hit Ratio,"GPU_Util
+Cache","GPU_Util
+SSD","GPU_Util
+HDD",Disk_Util_cache,Disk_Util_ssd,Disk_Util_hdd,CPU_Util_cache,CPU_Util_ssd,CPU_Util_hdd,Read Sequential,Machine
+Alexnet,pytorch,https://github.com/pytorch/examples/tree/main/imagenet,/mnt/ssd_san/Monitoring_ML/pytorch_example/yolov_cache/,ImageNet,146G,70G,4.0,Low hit,0.9854,2.7886,115.0,141.6409594,23.16605163,148.7196029,29.32,11.14857143,148.1,28.78,18.65428571,191.0,204.0,194.7816296,4.518809002,204.5693654,0.28,5.929285714,157.4584253,22.81,10.38076923,66.55,48.13,51.6,49.09705,5.25,20,,-,98.54,96.47,99,24.3,23.0,23.5,,208.0
+regnet_y_1_6gf,pytorch,https://github.com/pytorch/examples/tree/main/imagenet,/mnt/ssd_san/Monitoring_ML/pytorch_example/yolov_cache/,ImageNet,146G,70G,4.0,Low hit,0.8888,96.9664,867.0,840.5422711,3.051641168,839.5378597,3.17,11.14857143,915.01,5.54,18.65428571,872.0,880.0,873.7255294,0.7130080188,872.6762946,0.83,5.929285714,848.9067607,3.53,10.38076923,10.98,11.47,11.46,11.44452,5.2,93.53,91.63,93.69,88.88,48.85,89.14,7.96,6.62,8.59,65.16,208.0
+mobilenet_v3_small,pytorch,https://github.com/pytorch/examples/tree/main/imagenet,/mnt/ssd_san/Monitoring_ML/pytorch_example/yolov_cache/,ImageNet,146G,70G,4.0,Low hit,0.9869,3.013,186.0,142.6435856,23.30990023,136.4852817,26.62,11.14857143,396.07,112.94,18.65428571,230.0,241.0,234.7528374,2.592183654,224.5321229,6.83,5.929285714,148.9984785,38.17,10.38076923,28.56,47.4,48.57,46.427856,5.16,34.6,4.94,31.36,98.69,50.05,97.54,25.53,26.04,25.72,67.54,210.0
+resnet18,pytorch,https://github.com/pytorch/examples/tree/main/imagenet,/mnt/ssd_san/Monitoring_ML/pytorch_example/yolov_cache/,ImageNet,146G,70G,2.0,Low hit,0.9799,1.9899,86.0,73.19357396,14.89119307,86.46981522,0.55,11.14857143,73.63,14.38,18.65428571,99.0,101.0,100.1035562,0.8875681158,118.3972832,17.23,5.929285714,116.9418594,15.78,10.38076923,56.44,40.96,49.15,41.425948,3.01,77.1,93.19,85.19,97.99,95.2,98.82,26.6,22.26,22.02,67.64,210.0
+EfficientDet,pytorch,COCO,/mnt/ssd_san/Monitoring_ML/pytorch_example/yolov_cache/,coco,24G,70G,4.0,Low hit,0.7967,65.056,311.0,1047.83839,236.9255273,317.6770478,2.15,11.14857143,326.08,4.85,18.65428571,320.0,346.0,1129.358113,226.404079,338.6314302,2.13,5.929285714,321.0968648,,,35.12,32.43,34.8,135.3839178,5.4,98.45,99.62,92.18,79.67,39.14,75.16,10.41,9.82,10.08,65.73,210.0
